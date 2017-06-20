@@ -114,8 +114,10 @@ section.team {
   background: #9AE4E1;
   padding: 60px 0 30px;
 }
-section.team .wrapper {
-  min-width: 1220px;
+@media screen and (min-width: 1220px) {
+  section.team .wrapper {
+    min-width: 1220px;
+  }
 }
 
 section.team .team-directory {
